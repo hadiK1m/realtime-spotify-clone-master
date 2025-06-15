@@ -1,39 +1,11 @@
-<h1 align="center">Realtime Spotify Application ✨</h1>
+Saya mengembakan aplikasi web full-stack yang terinspirasi dari Spotify, dengan fokus pada pengalaman mendengarkan musik dan fitur chat real-time. Untuk mewujudkan ini, saya mengandalkan berbagai teknologi modern dan powerful, baik di sisi server maupun client.
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+Teknologi yang Saya Gunakan dalam Proyek Spotify Clone Ini
 
-[Watch Full Tutorial on Youtube](https://youtu.be/4sbklcQ0EXc)
+Di sisi Backend (Server):
+Saya menggunakan Node.js sebagai lingkungan runtime untuk menjalankan kode JavaScript saya. Di atasnya, saya membangun API menggunakan framework Express.js, yang membantu saya mengelola rute dan permintaan HTTP. Untuk interaksi dengan database, saya beralih dari Mongoose ke Drizzle ORM yang lebih modern, memungkinkan saya menulis query database dengan JavaScript/TypeScript. Database yang saya gunakan adalah PostgreSQL, sebuah database relasional yang kuat.
 
-About This Course:
+Di sisi Frontend (Klien):
+Antarmuka pengguna (UI) aplikasi saya dibangun dengan React, sebuah library JavaScript yang deklaratif. Untuk mempercepat proses pengembangan dan optimasi, saya memilih Vite sebagai alat build. Saya juga menggunakan TypeScript untuk menambahkan tipe keamanan pada kode frontend saya, membantu saya menulis kode yang lebih rapi dan bebas bug.
 
--   🎸 Listen to music, play next and previous songs
--   🔈 Update the volume with a slider
--   🎧 Admin dashboard to create albums and songs
--   💬 Real-time Chat App integrated into Spotify
--   👨🏼‍💼 Online/Offline status
--   👀 See what other users are listening to in real-time
--   📊 Aggregate data for the analytics page
--   🚀 And a lot more...
-
-### Setup .env file in _backend_ folder
-
-```bash
-PORT=...
-MONGODB_URI=...
-ADMIN_EMAIL=...
-NODE_ENV=...
-
-CLOUDINARY_API_KEY=...
-CLOUDINARY_API_SECRET=...
-CLOUDINARY_CLOUD_NAME=...
-
-
-CLERK_PUBLISHABLE_KEY=...
-CLERK_SECRET_KEY=...
-```
-
-### Setup .env file in _frontend_ folder
-
-```bash
-VITE_CLERK_PUBLISHABLE_KEY=...
-```
+Dan ini saya buat dengan bantuan AI Seperti GEMINI.
